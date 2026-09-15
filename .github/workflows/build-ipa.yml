@@ -1,4 +1,4 @@
-name: Build IPA from your own Spotify IPA
+name: Build IPA from your own Spotify
 
 on:
   workflow_dispatch:
