@@ -8,7 +8,7 @@ on:
         required: true
         type: string
       upload_method:
-        description: "artifacts"
+        description: "both"
         default: artifacts
         type: choice
         options: [artifacts, filebin, both]
