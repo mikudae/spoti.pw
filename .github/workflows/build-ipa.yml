@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       ipa_url:
-        description: "Direct link to a decrypted Spotify IPA"
+        description: "https://fastsign.dev/tg-ipa/iosdecrypted/210664-%5BTG@i_osd%5DSP_9.1.82_ES.ipa"
         required: true
         type: string
       upload_method:
-        description: "Where to put the result"
+        description: "artifacts"
         default: artifacts
         type: choice
         options: [artifacts, filebin, both]
